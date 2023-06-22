@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+}
+
+#mainTopic{
+    color: blue;
+    font-family: Georgia;
+}
+
+h3{
+    font-family: Georgia;
+}
+
+h5{
+    font-family: Georgia;
+}
+
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button{
+    color: azure;
+    background-color: purple;
+}
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-child(odd){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked + label{
+    color: darkgreen;
+    font-weight: 700;
+}
