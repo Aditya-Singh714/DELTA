@@ -1,0 +1,39 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: grey;
+    font-size: 50px;
+}
+
+#nav{
+    background-color: palevioletred;
+    border-radius: 15px;
+    border: 2px solid teal;
+    display: flex;
+    height: 50px;
+    width: 900px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-list{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 5px;
+    line-height: 50px;
+}
