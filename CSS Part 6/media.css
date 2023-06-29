@@ -1,0 +1,67 @@
+h1{
+    background-color: cadetblue;
+    border: 4px solid black;
+}
+
+div{
+    background-color: brown;
+    border: 3px double black;
+    height: 200px;
+    width: 200px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: Impact;
+    color: crimson;
+}
+
+@media(width : 400px){
+    h1{
+        background-color: cornflowerblue;
+        border: 3px dotted darkblue;
+    }
+
+    div{
+        border-radius: 50%;
+        background-color: bisque;
+        border: 2px solid black;
+    }
+}
+
+@media(max-width : 500px){
+    h1{
+        font-size: 40px;
+        font-weight: 300;
+        color: darkcyan;
+    }
+
+    h3{
+        background-color: darkseagreen;
+        color: black;
+    }
+
+    div{
+        border-radius: 30%;
+        background-color: blueviolet;
+    }
+}
+
+@media(min-width : 700px){
+    div{
+        border: 5px solid red;
+        transform: rotate(185deg);
+    }
+}
+
+@media(min-width : 200px) and (max-width : 300px){
+    h1{
+        background-color: lawngreen;
+        font-family: cursive;
+    }
+
+    h3{
+        font-family: fantasy;
+        color: darksalmon;
+    }
+}
