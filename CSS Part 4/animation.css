@@ -1,0 +1,64 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+
+    animation-name: boxChange;
+    /* animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 5;
+    animation-direction: alternate; */
+
+    animation: boxChange ease-in 3s 1s 10  normal;
+}
+
+h1{
+    text-align: center;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+
+/* @keyframes boxChange{
+    from{
+        height: 200px;
+        width: 200px;
+        background-color: cadetblue;
+    }
+
+    to{
+        height: 400px;
+        width: 400px;
+        background-color: burlywood;
+        border-radius: 50%;
+    }
+} */
+
+@keyframes boxChange{
+    0%{
+        height: 200px;
+        width: 200px;
+        background-color: cadetblue;
+        transform: rotate(0deg);
+    }
+
+    50%{
+        height: 300px;
+        width: 300px;
+        transform: rotate(180deg);
+        background-color: aqua;
+        border-radius: 50%;
+    }
+
+    100%{
+        height: 500px;
+        width: 500px;
+        transform: rotate(360deg);
+        background-color: chocolate;
+        border-radius: 100%;
+    }
+}
