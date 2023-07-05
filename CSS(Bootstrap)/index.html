@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStraps Part 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <h2>Grid System</h2>
+        <div class="row">
+            <div class="col bg-danger">
+                Column
+            </div>
+            <div class="col bg-primary">
+                Column
+            </div>
+            <div class="col bg-success">
+                Column
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row align-items-start">
+            <div class="col bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium molestias
+                totam ab iure nulla sint sit tempora, consectetur natus magni illum dicta? Porro atque eaque temporibus
+                possimus, facilis earum officiis!
+                Quaerat aut architecto tenetur? Alias quidem harum omnis a magnam expedita mollitia nobis adipisci
+                maiores! Laudantium doloremque totam omnis, facilis fuga vel perspiciatis placeat, id quaerat
+                consequatur a nostrum aliquid?
+                Repellat impedit, aspernatur excepturi expedita veniam culpa aut veritatis, minima placeat eius
+                reprehenderit voluptas officiis, neque non cupiditate odio magnam maiores eligendi. Ea, nihil
+                consequuntur. Quas hic quis ea accusantium!
+                Esse, reiciendis? Amet, repellendus quas. Rem inventore hic impedit ducimus tenetur praesentium vel
+                dolores vitae consequatur sequi error officia, excepturi, maiores perspiciatis non? Ipsam repudiandae in
+                doloremque amet enim. Debitis?</div>
+
+            <div class="col bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium molestias
+                totam ab iure nulla sint sit tempora, consectetur natus magni illum dicta? Porro atque eaque temporibus
+                possimus, facilis earum officiis!
+                Quaerat aut architecto tenetur? Alias quidem harum omnis a magnam expedita mollitia nobis adipisci
+                maiores! Laudantium doloremque totam omnis, facilis fuga vel perspiciatis placeat, id quaerat
+                consequatur a nostrum aliquid?
+                Repellat impedit, aspernatur excepturi expedita veniam culpa aut veritatis, minima placeat eius
+                reprehenderit voluptas officiis, neque non cupiditate odio magnam maiores eligendi. Ea, nihil
+                consequuntur. Quas hic quis ea accusantium!
+                Esse, reiciendis? Amet, repellendus quas. Rem inventore hic impedit ducimus tenetur praesentium vel
+                dolores vitae consequatur sequi error officia, excepturi, maiores perspiciatis non? Ipsam repudiandae in
+                doloremque amet enim. Debitis?</div>
+
+            <div class="col bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium molestias
+                totam ab iure nulla sint sit tempora, consectetur natus magni illum dicta? Porro atque eaque temporibus
+                possimus, facilis earum officiis!
+                Quaerat aut architecto tenetur? Alias quidem harum omnis a magnam expedita mollitia nobis adipisci
+                maiores! Laudantium doloremque totam omnis, facilis fuga vel perspiciatis placeat, id quaerat
+                consequatur a nostrum aliquid?
+                Repellat impedit, aspernatur excepturi expedita veniam culpa aut veritatis, minima placeat eius
+                reprehenderit voluptas officiis, neque non cupiditate odio magnam maiores eligendi. Ea, nihil
+                consequuntur. Quas hic quis ea accusantium!
+                Esse, reiciendis? Amet, repellendus quas. Rem inventore hic impedit ducimus tenetur praesentium vel
+                dolores vitae consequatur sequi error officia, excepturi, maiores perspiciatis non? Ipsam repudiandae in
+                doloremque amet enim. Debitis?</div>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <!-- <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card" style="width: 18rem;">
+        <img src="rose.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and tens of thousands of cultivars.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+    <div class="container">
+        <h1>Bootstrap Demo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum quam voluptas itaque, tempore
+            doloribus quasi, minima optio autem quae qui consequuntur voluptatum? Saepe dolores, omnis nihil quidem
+            nobis harum?
+            Ipsa velit pariatur, illum in sed incidunt atque libero impedit fugiat est repellendus odio autem ratione
+            sit numquam at voluptas perferendis doloribus vero vitae repellat officia tempore! Laboriosam, aspernatur
+            voluptate!
+            Nesciunt facere rerum, voluptatum, provident dolore sed quos quidem nostrum debitis nam saepe, ex quae animi
+            sit assumenda totam obcaecati! Nisi distinctio ullam cumque obcaecati, voluptates perspiciatis nostrum cum
+            in.
+            Enim iure ut dolores nisi quia quibusdam doloremque, excepturi tenetur accusamus, commodi, officia quis
+            velit dolorem veritatis minima cumque labore. Quo doloremque quam nam blanditiis veniam nesciunt in dicta
+            sint?
+            Commodi harum nobis, ut quasi inventore, sit saepe tempore nesciunt reprehenderit ea reiciendis earum?
+            Delectus perferendis vel at magnam. Nemo id natus unde cum blanditiis odio enim eveniet. In, culpa.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quisquam ullam veniam, atque et eius architecto minus, ratione aliquid ea harum eligendi odit assumenda repudiandae? Ad id similique dignissimos eos?
+            Quidem voluptas ratione neque quos laborum animi. Repudiandae quod obcaecati ut repellat eius, veritatis recusandae ab earum enim nisi similique nobis nemo eaque cupiditate architecto quaerat aliquam ipsum consectetur sed.
+            Ea, maxime! Sed asperiores unde neque, id nemo officia vero ut voluptates odit veritatis assumenda labore ab quis aut repudiandae nam aperiam quia. Rerum quasi ad repellat laborum animi maiores!
+            Sed ex nemo quidem recusandae, consequuntur facilis ratione esse mollitia aut nisi officia ea nobis corrupti consectetur quisquam laudantium rem tempore, est placeat numquam veritatis quibusdam id error blanditiis. Voluptate.
+            Consequatur officiis suscipit hic alias ex ducimus consequuntur non ad? Deserunt quibusdam iure quis cum ea nostrum sed soluta deleniti laborum. Pariatur vitae nulla ipsa quis et dicta, perspiciatis sed!
+            Incidunt cum ducimus non error fugit corrupti iste accusamus impedit, facere temporibus cumque beatae laudantium reiciendis similique quasi soluta ad! Similique voluptatibus dicta consequuntur voluptate placeat, molestias laborum! Vero, rerum?
+            Quis rerum distinctio ut nobis repellendus, esse id! Dicta ipsam voluptatibus atque inventore sit! Cupiditate, aut fuga incidunt natus labore soluta asperiores neque, ex possimus mollitia, et inventore recusandae! Totam!
+            Dignissimos, consectetur consequuntur delectus officiis minus neque expedita, obcaecati nisi ab eum, minima deserunt quam! Nostrum pariatur voluptatibus, sit impedit ad dolorum reiciendis expedita beatae dolorem, magnam quisquam delectus porro.
+            Magni, voluptas? Quod vero repudiandae consequatur atque, ipsam molestias distinctio explicabo nobis tempore obcaecati, delectus ab architecto dignissimos perferendis. Dolore suscipit possimus aliquid id, quod earum quidem fuga reprehenderit laboriosam?
+            Minima, velit nisi officiis hic sapiente molestias repellat assumenda voluptate, quas fuga dolorum perferendis similique maxime numquam beatae ab aut odit? Unde consectetur facilis voluptatum mollitia libero accusantium, culpa distinctio!
+        </p>
+
+    
+    <button>Click me</button>
+    <button class="btn btn-warning btn-lg">Click me</button>
+    <button class="btn btn-success btn-sm">Click me</button>
+    <button class="btn btn-danger">Click me</button>
+
+    <button type="button" class="btn btn-outline-success" disabled>Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+
+    <a href="https://www.google.com" class="btn btn-outline-dark">Google me</a>
+    <br />
+
+    
+    <h2><span class="badge bg-primary">New</span></h2>
+
+    <button type="button" class="btn btn-primary">
+        Notifications <span class="badge text-bg-secondary">4</span>
+    </button>
+
+
+    <span class="badge rounded-pill text-bg-info">Info</span>
+    <span class="badge rounded-pill text-bg-light">Light</span>
+    <span class="badge rounded-pill text-bg-dark">Dark</span>
+
+
+    <div class="alert alert-danger">
+        Error 404. Please try again!
+    </div>
+
+    <div class="alert alert-success">
+        Congratulation! You have won the BGMI match.
+    </div>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-outline-danger">Left</button>
+        <button type="button" class="btn btn-warning">Middle</button>
+        <button type="button" class="btn btn-success">Right</button>
+    </div>
+
+    </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
