@@ -77,3 +77,47 @@ let line = function(){
 multipleLine(line, 100);
 
 // higher order function with retrun keyword
+function oddOrEvenFactory(request){
+    if(request == "odd"){
+        return function(n){
+            console.log(!(n%2 == 0));
+        }
+    } else if(request == "even"){
+        return function(n){
+            console.log(n%2 == 0);
+        }
+    } else {
+        console.log("Wrong request");
+    }
+}
+let request = "odd";
+let func = oddOrEvenFactory(request);
+console.log(func(9));
+
+// methods using function
+const calculator = {
+    add : function(a ,b){
+        return (a+b);
+    },
+
+    subtract : function(a, b){
+        return (a-b);
+    },
+
+    multiply : function(a, b){
+        return (a*b);
+    },
+
+    power(a, b){
+        return (a**b);
+    },
+
+    divide(a, b){
+        return (a/b);
+    }
+};
+console.log(calculator.add(54, 56));
+console.log(calculator.power(5,4));
+console.log(calculator.multiply(23, 52));
+console.log(calculator.subtract(52,46));
+console.log(calculator.divide(52,8));
