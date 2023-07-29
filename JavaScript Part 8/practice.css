@@ -1,0 +1,21 @@
+.red{
+    color: red;
+}
+
+.blue{
+    color : blue;
+}
+
+.div{
+   border: 1px solid black;
+   background-color: burlywood; 
+}
+
+.btnStyle{
+    background-color: blue;
+    color: white;
+}
+
+.heading1{
+    color: purple;
+}
