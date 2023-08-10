@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+    color: chocolate;
+
+}
+
+p{
+    background-color: cadetblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#imageShow{
+    margin: 10px;
+}
+
+#result{
+    height: 350px;
+}

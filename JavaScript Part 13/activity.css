@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+    list-style: decimal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
