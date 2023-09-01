@@ -1,0 +1,78 @@
+h1{
+    color: maroon;
+    text-align: center;
+}
+
+h2{
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 25px;
+}
+
+.post{
+    background-color: bisque;
+    height: 175px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.user{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.content{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+button{
+    background-color: brown;
+    color: wheat;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.showPost{
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pId{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+input{
+    border:none ;
+    border-bottom: 1px solid black;
+    background-color: bisque;
+    font-size: 18px;
+}
+
+textarea{
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+form{
+    padding-left: 20px;
+}
+
+p{
+    padding-left: 20px;
+    font-size: 17px;
+}
