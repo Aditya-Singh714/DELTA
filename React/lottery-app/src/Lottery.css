@@ -1,0 +1,17 @@
+.TicketNum{
+    font-size: 3rem;
+}
+
+.Ticket{
+    border: 2px solid aqua;
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 15px;
+}
